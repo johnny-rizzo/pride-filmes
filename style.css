@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gayathri', sans-serif;
+    margin: 0;
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+
+.procurar{
+    background-color:transparent;
+    border: 2px solid rgb(49, 13, 79);
+    padding: 0.2rem 0.8rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+}
+
+.procurar:focus{
+    outline: 0;
+    background-color: rgb(49, 13, 79);
+}
+
+.procurar::placeholder{
+    color: #7378c5;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filme{
+    width: 250px;
+    margin:1rem;
+    border-radius: 3px;
+    
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    background-color:rgb(49, 13, 79);
+    position:relative;
+    overflow: hidden;
+}
+
+.bda{
+    box-shadow: 0 0 2px rgb(111 66 193 / 90%), 0 0 4px rgb(111 66 193 / 40%), 0 0 1rem rgb(111 66 193 / 30%), 0 0 4rem rgb(111 66 193 / 10%);
+    border-color: #170229 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.bi{
+    box-shadow: 0 0 2px rgb(68 217 232 / 90%), 0 0 4px rgb(68 217 232 / 40%), 0 0 1rem rgb(68 217 232 / 30%), 0 0 4rem rgb(68 217 232 / 10%);
+    border-color: #44d9e8 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.bw{
+    box-shadow: 0 0 2px rgb(255 193 7 / 90%), 0 0 4px rgb(255 193 7 / 40%), 0 0 1rem rgb(255 193 7 / 30%), 0 0 4rem rgb(255 193 7 / 10%);
+    border-color: #ffc107 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.bd{
+    box-shadow: 0 0 2px rgb(228 76 85 / 90%), 0 0 4px rgb(228 76 85 / 40%), 0 0 1rem rgb(228 76 85 / 30%), 0 0 4rem rgb(228 76 85 / 10%);
+    border-color: #e44c55 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.bp{
+    box-shadow: 0 0 2px rgb(111 66 193 / 90%), 0 0 4px rgb(111 66 193 / 40%), 0 0 1rem rgb(111 66 193 / 30%), 0 0 4rem rgb(111 66 193 / 10%);
+    border-color: #6f42c1 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.bo{
+    box-shadow: 0 0 2px rgb(255 193 7 / 90%), 0 0 4px rgb(255 193 7 / 40%), 0 0 1rem rgb(255 193 7 / 30%), 0 0 4rem rgb(255 193 7 / 10%);
+    border-color: #ff7207 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.bg{
+    box-shadow: 0 0 2px rgb(60 242 129 / 90%), 0 0 4px rgb(60 242 129 / 40%), 0 0 1rem rgb(60 242 129 / 30%), 0 0 4rem rgb(60 242 129 / 10%);
+    border-color: #09da56 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.bpi{
+    box-shadow: 0 0 2px rgb(234 57 184 / 90%), 0 0 4px rgb(234 57 184 / 40%), 0 0 1rem rgb(234 57 184 / 30%), 0 0 4rem rgb(234 57 184 / 10%);
+    border-color: #ea39b8 !important;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+}
+
+.filme img{
+    width: 100%;
+}
+
+.filme-info{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.filme-info h3{
+    margin-top:0;
+}
+
+.filme-info span{
+    background-color:rgb(37, 7, 61);
+    padding: 0.25rem 0.5rem;
+    border-radius:3px;
+    font-weight: bold;
+}
+
+.sinopse{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgb(49, 13, 79);
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.filme:hover .sinopse{
+    transform: translateY(0);
+}
+
+a{
+    padding:20px
+}
+
+.pride{
+    height:90px;
+}
