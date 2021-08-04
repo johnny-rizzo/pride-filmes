@@ -6,4 +6,6 @@
 <br>
 <p>para futuras atualizações quero adicionar uma página de séries com a mesma temática e vincular há algum site hospedeiro de filmes.
   
+  https://pridefilmes.netlify.app/index.html
+  
 🏳️‍🌈
